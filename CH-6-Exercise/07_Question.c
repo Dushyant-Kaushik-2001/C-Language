@@ -8,19 +8,19 @@ int main()
     printf("Enter three numbers: ");
     scanf("%d%d%d", &a,&b,&c);
     
-    if (x > y && x > z)
+    if (a > b && a > c)
     {
-        greatest = x;
+        k = a;
     }
-    else if (y > z)
+    else if (b > c)
     {
-        greatest = y;
+        k = b;
     }
     else
     {
-        greatest = z;
+        k = c;
     }
-    printf("The greatest number is: %d",greatest);
+    printf("The greatest number is: %d",k);
 
     getch();
 }
