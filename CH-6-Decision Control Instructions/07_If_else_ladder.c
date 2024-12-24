@@ -1,7 +1,7 @@
 /*
 ----------------------------------------------------else if ladder--------------------------------------------------------------------------
 
-1 .else if ladder is nothing but a special case of nesting where nesting only appears in else block.
+1 .else if ladder is nothing but a special case of nesting where nesting only appears in else block. Multiple conditions ko check karne ke liye use hota hai.
 
 2. Syntax:
 if()

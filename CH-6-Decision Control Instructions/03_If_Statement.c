@@ -1,6 +1,8 @@
 /*
 -----------------------------------------------------------if statement------------------------------------------------------------------------
 
+Yeh ek simple conditional statement hai jo condition true hone par block ko execute karta hai.
+
 include <stdio.h>
 int main()
 {

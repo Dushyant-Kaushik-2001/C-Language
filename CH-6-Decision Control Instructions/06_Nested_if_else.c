@@ -1,6 +1,7 @@
 /*
 ---------------------------------------------------Nested if else-------------------------------------------------------------------------
 
+Ek if ke andar doosra if hota hai aur ek else ke andar doosra else.
 Following is a program to find greater among three numbers. Notice the nested if else used in the program:
 */
 

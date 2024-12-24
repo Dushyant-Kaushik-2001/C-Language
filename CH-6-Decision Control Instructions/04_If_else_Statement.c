@@ -21,7 +21,7 @@ int main()
 return 0;
 } 
 
-1. This is similar to if but the else block is new add on. 
+1. This is similar to if but the else block is new add on. Agar condition false ho, to else block execute hota hai.
 
 2. If the condition of if is TRUE if block is executed and if the condition of if is FALSE else block is executed.  
 
