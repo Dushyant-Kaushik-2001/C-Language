@@ -1,4 +1,4 @@
-// Ques.8 Write a program to find greater between two numbers. Your result should be the number which is greater or if both are equal your output should be “equal”.
+// Ques.12 Write a program to find greater between two numbers. Your result should be the number which is greater or if both are equal your output should be “equal”.
 
 #include <stdio.h>
 #include <conio.h>
@@ -23,9 +23,3 @@ int main()
     getch();
 }
 
-/*
-Lets suppose 
- a = 10 and b = 12
-
-
-*/

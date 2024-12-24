@@ -1,33 +1,30 @@
-// Ques.09. Write a program to print greater among three numbers. Print only the greater number.
+// Ques.13. Write a program to print greater among three numbers. Print only the greater number.
 
 #include <stdio.h>
 #include <conio.h>
 int main()
 {
-    int x, y, z,greatest;
+    int a,b,c,k;
     printf("Enter three numbers: ");
-    scanf("%d%d%d", &x,&y,&z);
+    scanf("%d%d%d", &a,&b,&c);
     
-    if (x > y && x > z)
+    if (a > b && a > c)
     {
-        greatest = x;
+        k = a;
     }
-    else if (y > z)
+    else if (b > c)
     {
-        greatest = y;
+        k = b;
     }
     else
     {
-        greatest = z;
+        k = c;
     }
-    printf("The greatest number is: %d",greatest);
+    printf("The greatest number is: %d",k);
 
     getch();
 }
 
-/*
-lets suppose x=15,y=20,z=25
-*/
 
 
 

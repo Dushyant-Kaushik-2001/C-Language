@@ -1,4 +1,4 @@
-// Ques.4. Write a program to check whether a given number is divisible by 3 and divisible by 2.
+// Ques.8. Write a program to check whether a given number is divisible by 3 and divisible by 2.
 
 #include <stdio.h>
 #include <conio.h>

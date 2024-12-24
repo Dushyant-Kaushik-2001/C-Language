@@ -1,4 +1,4 @@
-//Ques.5. Write a program to check whether a given number is divisible by 7 or divisible by 3.
+//Ques.9. Write a program to check whether a given number is divisible by 7 or divisible by 3.
 
 #include <stdio.h>
 #include <conio.h>
