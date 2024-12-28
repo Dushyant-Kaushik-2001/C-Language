@@ -1,22 +1,25 @@
-// Ques.15.Write a program to add all digits of a three digit number. Number is given by user. (if user enters 384, your output should be 15)
+// Ques.15.Write a program to input two digit number and your output should be reverse of number. (if user enters 45, your output should be 54)
 
 #include <stdio.h>
 #include <conio.h>
 int main()
 {
-    int x, hundreds, tens, ones, sum;
+    int x, reverse;
 
-    printf("Enter a three-digit number: ");
+    
+    printf("Enter a two-digit number: ");
     scanf("%d", &x);
 
-    // Extract the digits
-    hundreds = x / 100;                  // Get the hundreds place
-    tens = (x / 10) % 10;               // Get the tens place
-    ones = x % 10;                     // Get the ones place
+    
+    reverse = (x % 10) * 10 + (x / 10);
 
-    sum = hundreds + tens + ones;
-
-    printf("The sum of all digits is: %d", sum);
+    
+    printf("The reverse of the number is: %d", reverse);
 
     getch();
 }
+
+
+
+
+

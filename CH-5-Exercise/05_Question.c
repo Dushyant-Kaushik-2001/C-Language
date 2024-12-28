@@ -1,17 +1,17 @@
-// Ques.5.Write a program to find first digit of a given three digit number
+// Ques.5.Write a program to find middle digit of a given three digit number?
 
 #include <stdio.h>
 #include <conio.h>
 int main()
 {
-    int x, firstDigit;
+    int x, middleDigit;
 
     printf("Enter a three-digit number: ");
     scanf("%d", &x);
 
-    firstDigit = x / 100;
+    middleDigit = (x / 10) % 10;
 
-    printf("The first digit of a given three digit number is %d", firstDigit);
+    printf("The middle digit of a given three digit number is %d", middleDigit);
 
     getch();
 }

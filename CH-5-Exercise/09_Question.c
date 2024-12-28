@@ -1,18 +1,15 @@
-// Ques.9.Write a program to make the last digit of a number stored in a variable as zero. (Example - if x=2345 then make it x=2340)
+// Ques.9.Write a program with one char type variable. Assign ‘A’ in the variable. 
+// Now Change the value of variable from ‘A’ to ‘B’ using increment operator.
 
 #include <stdio.h>
 #include <conio.h>
 int main()
 {
-    int x;
+    char ch = 'A';                                                        // Initialize variable with 'A'
+    printf("Initial value of ch: %c\n", ch);
 
-    printf("Enter a number: ");
-    scanf("%d", &x);
-
-    // Make the last digit zero
-    x = x / 10 * 10;
-
-    printf("The number after making the last digit zero is: %d", x);
+    ch++;                                                                 // Increment the value of ch
+    printf("Value of ch after increment: %c", ch);
 
     getch();
 }
@@ -20,10 +17,16 @@ int main()
 
 
 
+/*
 
+Explanation:
 
+1. Initialization = Variable ch ko 'A' ke saath initialize kiya gaya.
 
+2. Increment Operator (++) = ch++ ka matlab hai, ch ke value ko uski ASCII value ke basis par 1 increment karna.
+ASCII table mein 'A' ka value 65 hoti hai, aur 'B' ka value 66. Increment karne par 'A' se 'B' ho jata hai.
 
+3. Output = Program pehle 'A' ko print karega aur increment ke baad 'B'.
 
-
+*/
 

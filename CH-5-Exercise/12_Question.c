@@ -1,30 +1,30 @@
-// Ques.12.Write a program to take a three digit number from the user and rotate its digits by one position towards the right
+//Ques.12.Write a program to swap values of two int variables without using third variable.
 
 #include <stdio.h>
-
+#include <conio.h>
 int main()
 {
-    int x, lastDigit, rotatedNumber;
+    int a, b;
 
-    printf("Enter a three-digit number: ");
-    scanf("%d", &x);
+    printf("Enter two numbers: ");
+    scanf("%d%d", &a, &b);
 
-    // Ensure the input is a three-digit number
-    if (x < 100 || x > 999)
-    {
-        printf("Please enter a valid three-digit number.\n");
-        return 1;
-    }
+    // Swapping without a third variable
+    a = a + b;              // Step 1: Add a and b
+    b = a - b;             // Step 2: Subtract b from the sum to get the original value of a
+    a = a - b;            // Step 3: Subtract the new b from the sum to get the original value of b
 
-    // Extract the last digit
-    lastDigit = x % 10;
+    printf("a = %d b = %d", a, b);
 
-    // Remove the last digit and shift the remaining digits to the right
-    rotatedNumber = lastDigit * 100 + x / 10;
-
-    // Display the rotated number
-    printf("The number after rotating its digits to the right is: %d", rotatedNumber);
-
-    return 0;
+    getch();
 }
+
+
+
+/*
+a=10 b=20
+a=30 b=20
+a=30 b=10
+a=20 b=10
+*/
 

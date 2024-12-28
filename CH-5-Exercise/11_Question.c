@@ -1,18 +1,38 @@
-// Ques.11. Assume price of 1 USD is INR 76.23. Write a C program to take the amount in INR and convert it into USD
+// Ques.11. Write a program to swap values of two int variables.
 
 #include <stdio.h>
 #include <conio.h>
 int main()
 {
-    float inr, usd;
-    float exchange_rate = 76.23;                                 // 1 USD = 76.23 INR
+    int a, b, c;
 
-    printf("Enter amount in INR: ");
-    scanf("%f", &inr);
+    printf("Enter Two numbers: ");
+    scanf("%d%d", &a, &b);
 
-    usd = inr / exchange_rate;                                   // Convert INR to USD
+    c = a;
+    a = b;
+    b = c;
 
-    printf("%.2f INR is equivalent to %.2f USD\n", inr, usd);
+    printf("a = %d b = %d ", a, b);
 
     getch();
 }
+
+
+
+/*
+
+Explanation:   
+
+1. User Input: User se do integers input liye jaate hain.    
+
+2. Swapping: Do variables ke values ko swap karne ke liye ek temporary variable (c) ka use kiya jata hai.
+
+3. Swapping Logic:
+(a). c = a: Temporary variable c mein a ki value store ki jaati hai.
+(b). a = b: a ko b ke value se update kiya jaata hai.
+(c). b = c: b ko c (original a) ke value se update kiya jaata hai.
+
+4. Output: Swapped values ko print kiya jaata hai.
+
+*/
