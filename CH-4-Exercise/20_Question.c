@@ -1,20 +1,12 @@
-// Ques.20.. Write a program to calculate the area of a triangle where base and height of the triangle are given
+// Ques.20.Write a C program to print character stored in a char variable, also print its ASCII code.
 
 #include <stdio.h>
 #include <conio.h>
 int main()
 {
-    float base, height, area;
+    char x = 'A';                                    // Character variable
 
-    printf("Enter the base of the triangle: ");
-    scanf("%f", &base);
-
-    printf("Enter the height of the triangle: ");
-    scanf("%f", &height);
-
-    area = 0.5 * base * height;
-
-    printf("The area of the triangle is %f ", area);
-
+    printf("Character: '%c'\n", x);
+    printf("The ASCII code of '%c' is: %d", x, x);
     getch();
 }

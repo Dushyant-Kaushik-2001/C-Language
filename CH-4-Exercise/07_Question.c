@@ -1,19 +1,18 @@
-/* Ques.7. Write a C program containing declaration of three variables (of type int, char and float), also assign some values to them and
-print values of all three variables using single printf().
-*/
- 
- #include <stdio.h>
+// Ques.7.Write a C program to print \\ on the screen.
 
-int main() 
+#include <stdio.h>
+#include <conio.h>
+int main()
 {
-    int num = 25;                      // Integer variable
-    char letter = 'A';                 // Character variable
-    float decimal = 3.14;              // Float variable
-
-    printf("Integer: %d, Character: %c, Float: %.2f", num, letter, decimal);
-
-    return 0;
+    printf("\\\\");
+    getch();
 }
 
 
-// %.2f is a placeholder for a floating-point number, formatted to two decimal places.
+
+/* 
+Explanation:
+1. In C, the backslash (\) is an escape character.
+2. To print a single backslash (\), we need to escape it by typing \\.
+3. Since we want to print two backslashes (\\), we need to type \\\\.
+*/

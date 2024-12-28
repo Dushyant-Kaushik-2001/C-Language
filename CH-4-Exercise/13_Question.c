@@ -1,23 +1,17 @@
-// Ques.13. Write a program to calculate the volume of a Cuboid.
+// Ques.13.Write a C program to calculate the average of three numbers. Numbers are taken from the User.
 
 #include <stdio.h>
 #include <conio.h>
 int main()
 {
-    float x, y, z, volume;
+    float a, b, c, average;
 
-    printf("Enter the length of the cuboid: ");
-    scanf("%f", &x);
+    printf("Enter three numbers: ");
+    scanf("%f%f%f", &a, &b, &c);
 
-    printf("Enter the breadth of the cuboid: ");
-    scanf("%f", &y);
+    average = (a + b + c) / 3;
 
-    printf("Enter the height of the cuboid: ");
-    scanf("%f", &z);
-
-    volume = x * y * z;
-
-    printf("The volume of the cuboid is %f ", volume);
+    printf("The average of three numbers is %f ", average);
 
     getch();
 }

@@ -1,4 +1,4 @@
-// Ques.12. Write a program to calculate the area of a circle.
+// Ques.12.Write a C program to calculate the area of a circle.
 
 #include <stdio.h>
 #include <conio.h>

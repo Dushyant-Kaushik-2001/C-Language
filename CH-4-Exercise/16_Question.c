@@ -1,23 +1,24 @@
-// Ques.16. Write a program to calculate the average of three numbers
+// Ques.16.Write a program to calculate the simple interest.
 
 #include <stdio.h>
 #include <conio.h>
 int main()
 {
-    int x, y, z, average;
+    float p, r, t, si;
 
-    printf("Enter the first number: ");
-    scanf("%d", &x);
+    printf("Enter the principal amount: ");
+    scanf("%f", &p);
 
-    printf("Enter the second number: ");
-    scanf("%d", &y);
+    printf("Enter the annual interest rate : ");
+    scanf("%f", &r);
 
-    printf("Enter the third number: ");
-    scanf("%d", &z);
+    printf("Enter the time : ");
+    scanf("%f", &t);
 
-    average = (x + y + z) / 3;
+    si = (p * r * t) / 100;
 
-    printf("The average of %d, %d, and %d is %d", x, y, z, average);
+    printf("The simple interest is %f", si);
 
     getch();
 }
+

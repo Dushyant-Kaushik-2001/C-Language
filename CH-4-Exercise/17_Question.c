@@ -1,23 +1,20 @@
-// Ques.17.Write a program to calculate the square of a given number.
+// Ques.17. Write a program to calculate the area of a triangle where base and height of the triangle are given.
 
 #include <stdio.h>
 #include <conio.h>
 int main()
 {
-    int x, square;
+    float base, height, area;
 
-    printf("Enter a number: ");
-    scanf("%d", &x);
+    printf("Enter the base of the triangle: ");
+    scanf("%f", &base);
 
-    square = x * x;
+    printf("Enter the height of the triangle: ");
+    scanf("%f", &height);
 
-    printf("The square of %d is %d", x, square);
+    area = 0.5 * base * height;
+
+    printf("The area of the triangle is %f ", area);
 
     getch();
 }
-
-
-
-
-
-

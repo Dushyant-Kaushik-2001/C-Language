@@ -1,23 +1,17 @@
-// Ques.14. Write a program to calculate the simple interest
+// Ques.14.Write a C program to calculate Circumference of a circle.
 
 #include <stdio.h>
 #include <conio.h>
 int main()
 {
-    float p, r, t, si;
+    float r, c;
 
-    printf("Enter the principal amount: ");
-    scanf("%f", &p);
-
-    printf("Enter the annual interest rate : ");
+    printf("Enter the radius of circle: ");
     scanf("%f", &r);
 
-    printf("Enter the time : ");
-    scanf("%f", &t);
+    c = 2 * 3.14 * r;
 
-    si = (p * r * t) / 100;
-
-    printf("The simple interest is %f", si);
+    printf("The circumference of the circle is %f", c);
 
     getch();
 }

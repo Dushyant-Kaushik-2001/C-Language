@@ -1,4 +1,4 @@
-// Write a C program to print “Teacher’s Day” on the screen
+// Ques.4.Write a C program to print “Teacher’s Day” on the screen.
 
 #include<stdio.h>
 #include<conio.h>

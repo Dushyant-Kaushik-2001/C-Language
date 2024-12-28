@@ -1,21 +1,23 @@
-// Ques.15. Write a program to calculate the area of a rectangle
+// Ques.15.Write a C program to calculate the volume of a Cuboid.
 
 #include <stdio.h>
 #include <conio.h>
 int main()
 {
-    int x, y, area;
+    float x, y, z, volume;
 
-    printf("Enter the length of the rectangle: ");
-    scanf("%d", &x);
+    printf("Enter the length of the cuboid: ");
+    scanf("%f", &x);
 
-    printf("Enter the breadth of the rectangle: ");
-    scanf("%d", &y);
+    printf("Enter the breadth of the cuboid: ");
+    scanf("%f", &y);
 
-    area = x * y;
+    printf("Enter the height of the cuboid: ");
+    scanf("%f", &z);
 
-    printf("The area of the rectangle is %d", area);
+    volume = x * y * z;
+
+    printf("The volume of the cuboid is %f ", volume);
 
     getch();
 }
-

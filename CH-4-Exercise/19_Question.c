@@ -1,22 +1,20 @@
-// Ques.19. Write a program to calculate the profit percentage upon selling a product. Cost price and selling price are given by the user
+// Ques.19.Write a program which takes a character as input and print its ASCII code.
 
 #include <stdio.h>
 #include <conio.h>
 int main()
 {
-    float x, y, profit, profitPercentage;
+    char c;
 
-    printf("Enter the cost price of the product: ");
-    scanf("%f", &x);
+    printf("Enter a character: ");
+    scanf("%c", &c);
 
-    printf("Enter the selling price of the product: ");
-    scanf("%f", &y);
-
-    profit = y - x;
-
-    profitPercentage = (profit / x) * 100;
-
-    printf("The profit percentage is %f", profitPercentage);
+    printf("The ASCII code of '%c' is %d", c, c);
 
     getch();
 }
+
+/*
+%d displays the integer value of a character.
+%c displays the actual character.
+*/
