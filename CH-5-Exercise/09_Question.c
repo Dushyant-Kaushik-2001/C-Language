@@ -1,5 +1,4 @@
-// Ques.9.Write a program with one char type variable. Assign ‘A’ in the variable. 
-// Now Change the value of variable from ‘A’ to ‘B’ using increment operator.
+// Ques.9.Write a program with one char type variable. Assign ‘A’ in the variable. Now Change the value of variable from ‘A’ to ‘B’ using increment operator.
 
 #include <stdio.h>
 #include <conio.h>
