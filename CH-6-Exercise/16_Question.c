@@ -1,47 +1,54 @@
-/*Ques.12. Write a program to check whether a given character is an alphabet (uppercase),an alphabet (lower case)
-,a digit or a special character.
- */
+// Ques.16.Write a program which takes the cost price and selling price of a product from the user. Now calculate and print profit or loss percentage.
 
 #include <stdio.h>
-
+#include <conio.h>
 int main()
 {
-    char x;
+    float cp, sp, pl;
 
-    printf("Enter a character: ");
-    scanf("%c", &x);
+    printf("Enter the Cost price: ");
+    scanf("%f", &cp);
 
-    if (x >= 'A' && x <= 'Z')
+    printf("Enter the Selling price: ");
+    scanf("%f", &sp);
+
+    
+    if (sp > cp)
     {
-        printf("Uppercase alphabet");
+        pl = ((sp - cp) / cp) * 100;
+        printf("Profit: %.2f%%", pl);
     }
-    else if (x >= 'a' && x <= 'z')
+    else if (cp > sp)
     {
-        printf("lowercase alphabet");
-    }
-    else if (x >= '0' && x <= '9')
-    {
-        printf("Digit");
+        pl = ((cp - sp) / cp) * 100;
+        printf("Loss: %.2f%%", pl);
     }
     else
     {
-        printf("special character");
+        printf("No profit, no loss.");
     }
 
-    return 0;
+    getch();
 }
 
 
+/*
+Explanation:
+
+1. Input = User se cost_price aur selling_price input lete hain.
+
+2. Condition check:
+
+(a). Agar sp > cp = Profit hota hai.
+Formula: ((SP - CP) / CP) * 100.
+
+(b). Agar cp > sp = Loss hota hai.
+Formula: ((CP - SP) / CP) * 100.
+
+(c). Agar dono equal hote hain, toh "No profit, no loss".
+
+3. Output = Profit ya loss percentage ko 2 decimal places tak print karega.
 
 
 
-
-
-
-
-
-
-
-
-
-
+*/

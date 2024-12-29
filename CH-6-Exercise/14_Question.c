@@ -61,23 +61,6 @@ Logic:
 3.If either condition is true, it’s a leap year.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 */
 
 

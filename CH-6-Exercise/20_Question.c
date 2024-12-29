@@ -1,71 +1,39 @@
-/*
-Ques.16.Write a C program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer.
-Calculate percentage and grade according to following:
- Percentage >= 90% : Grade A
- Percentage >= 80% : Grade B
- Percentage >= 70% : Grade C
- Percentage >= 60% : Grade D
- Percentage >= 40% : Grade E
- Percentage < 40% : Grade
-*/
+// Ques.16.Write a program which takes the length of the sides of a triangle as an input. Display whether the triangle is valid or not.
 
 #include <stdio.h>
-
+#include <conio.h>
 int main()
 {
-    float physics, chemistry, biology, mathematics, computer;
-    float total, percentage;
+    float a, b, c;
 
-    printf("Enter marks for Physics: ");
-    scanf("%f", &physics);
+    
+    printf("Enter the sides of Triangle\n");
+    printf("Side 1: ");
+    scanf("%f", &a);
+    printf("Side 2: ");
+    scanf("%f", &b);
+    printf("Side 3: ");
+    scanf("%f", &c);
 
-    printf("Enter marks for Chemistry: ");
-    scanf("%f", &chemistry);
-
-    printf("Enter marks for Biology: ");
-    scanf("%f", &biology);
-
-    printf("Enter marks for Mathematics: ");
-    scanf("%f", &mathematics);
-
-    printf("Enter marks for Computer: ");
-    scanf("%f", &computer);
-
-    // Calculate total and percentage
-    total = physics + chemistry + biology + mathematics + computer;
-    percentage = (total / 500) * 100;
-
-    // Determine the grade based on the percentage
-    char grade;
-    if (percentage >= 90)
+    
+    if (a + b > c && a + c > b && b + c > a)                                       // Triangle inequality theorem
     {
-        grade = 'A';
-    }
-    else if (percentage >= 80)
-    {
-        grade = 'B';
-    }
-    else if (percentage >= 70)
-    {
-        grade = 'C';
-    }
-    else if (percentage >= 60)
-    {
-        grade = 'D';
-    }
-    else if (percentage >= 40)
-    {
-        grade = 'E';
+        printf("Triangle is valid");
     }
     else
     {
-        grade = 'F';
+        printf("Triangle is not valid ");
     }
-
-    printf("Total Marks = %f\n", total);
-    printf("Percentage = %f\n", percentage);
-    printf("Grade = %c", grade);
 
     return 0;
 }
 
+
+/*
+Triangle Validity:
+Triangle valid hone ke liye yeh condition honi chahiye:
+a + b > c
+a + c > b
+b + c > a 
+Agar yeh teeno conditions satisfy hoti hain, toh triangle valid hai.
+*/

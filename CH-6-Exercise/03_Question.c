@@ -1,4 +1,4 @@
-// Ques.3. Write a program to check whether given number is even or odd.
+// Ques.3.Write a program to check whether a given number is an even number or an odd number. 
 
 #include <stdio.h>
 #include <conio.h>

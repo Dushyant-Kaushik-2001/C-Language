@@ -1,76 +1,25 @@
-/*Ques.13. Write a program which takes the length of the sides of a triangle as an input. Display whether the
-triangle is valid or not.
-*/
+// Ques.17.Write a program to take marks of 5 subjects from the user. Assume marks are given out of 100 and passing marks is 33.
+// Now display whether the candidate passed the examination or failed.
 
 #include <stdio.h>
-
-float main()
+#include <conio.h>
+int main()
 {
-    int side1, side2, side3;
+    float marks1, marks2, marks3, marks4, marks5;
 
-    printf("Enter the length of the first side: ");
-    scanf("%f", &side1);
+    
+    printf("Enter the marks of 5 subjects:");
+    scanf("%f %f %f %f %f", &marks1, &marks2, &marks3, &marks4, &marks5);
 
-    printf("Enter the length of the second side: ");
-    scanf("%f", &side2);
-
-    printf("Enter the length of the third side: ");
-    scanf("%f", &side3);
-
-        if (side1 + side2 > side3 && side1 + side3 > side2 && side2 + side3 > side1)
+    
+    if (marks1 < 33 || marks2 < 33 || marks3 < 33 || marks4 < 33 || marks5 < 33)
     {
-        printf("The triangle is valid.");
+        printf("Candidate failed.");
     }
     else
     {
-        printf("The triangle is not valid.");
+        printf("Candidate passed.");
     }
 
     return 0;
 }
-
-/*
-Explanation:
-Input: The program takes three floating-point values as input, which represent the lengths of the sides of the 
-triangle.
-Logic:
-The Triangle Inequality Theorem states that the sum of the lengths of any two sides of a triangle must be greater 
-than the length of the third side. We check this condition for all three pairs of sides.
-If all three conditions are satisfied, the triangle is valid.
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

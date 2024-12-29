@@ -1,4 +1,4 @@
-// Ques.1.Write a program to check whether user inputted number is positive or non positive.
+// Ques.1.Write a program to check whether a given number is positive or non-positive. 
 
 #include <stdio.h>
 #include <conio.h>
