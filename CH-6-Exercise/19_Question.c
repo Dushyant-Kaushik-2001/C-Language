@@ -29,3 +29,16 @@ int main()
 
     getch();
 }
+
+/*
+Explaination:
+
+1. User se ek character input liya jaata hai.
+2. Conditions use karke character ke type ko check kiya jaata hai:
+3. if (ch >= 'A' && ch <= 'Z'): Check karta hai ki character uppercase alphabet hai.
+4. else if (ch >= 'a' && ch <= 'z'): Check karta hai ki character lowercase alphabet hai.
+5. else if (ch >= '0' && ch <= '9'): Check karta hai ki character ek digit hai.
+6. Agar upar wale cases satisfy nahi hote, toh character ek special character hota hai.
+7. Result print karta hai.
+
+*/

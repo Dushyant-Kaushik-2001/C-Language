@@ -1,44 +1,20 @@
-// Ques.14.Write a program to print the first N natural numbers in reverse order.
+// Ques.14.Write a program to print the first N odd natural numbers.
 
 #include <stdio.h>
-
+#include <conio.h>
 int main()
 {
-    int n, i=1;
-    printf("Enter a number");
-    scanf("%d", &n);
-    while (i <= n)
+    int N, i = 1;                                                             // Initialization
+    printf("Enter the number of odd natural numbers to print: ");
+    scanf("%d", &N);
+    while (i <= N)                                                              // Condition
     {
-        printf("%d\n", n + 1 - i);
-        i++;
+        printf("%d\n", 2 * i - 1);                                             // Print statement
+        i++;                                                                   // Increment to avoid infinite loop
     }
 
-    return 0;
+    getch();
 }
-
-
-
-/*
-#include <stdio.h>
-
-int main()
-{
-    int n, i;
-    printf("Enter a number");
-    scanf("%d", &n);
-    while (i >= 1)
-    {
-        printf("%d\n", i);
-        i=n;
-        i--;
-    }
-
-    return 0;
-}
-
-*/
-
-
 
 
 
