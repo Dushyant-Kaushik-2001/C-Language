@@ -1,8 +1,13 @@
 /*
 
-----------------------------------------------------------Variables----------------------------------------------------------------------
+----------------------------------------------------------Variables in C----------------------------------------------------------------------
 
 Variables are the names of memory locations where we store Data.
+i.e.A variable is the name of the memory location. It is used to store information. Its value can be altered and reused several times. 
+It is a way to represent memory location through symbols so that it can be easily identified.
+Variables are key building elements of the C programming language used to store and modify data in computer programs. 
+A variable is a designated memory region that stores a specified data type value. 
+Each variable has a unique identifier, its name, and a data type describing the type of data it may hold.
 
 1. When we run any program, it consumes memory in RAM till its execution in process. 
 To perform a task program can use this memory for various reasons. 

@@ -1,11 +1,19 @@
 /*
-
 ---------------------------------------------------------Variable Declaration--------------------------------------------------------------
 
 1. Variables are new words in the program and needs to be declared for the compiler.
 Variables are memory location where we store our data. 
 The kind of data we want to store in the variable should be declared so that compiler fixes the memory requirement. 
 We can do this by using data types.
+
+Syntax:
+The syntax for defining a variable in C is as follows:
+data_type variable_name;  
+Here,
+data_type: It represents the type of data the variable can hold. 
+Examples of data types in C include int (integer), float (a floating-point number), char (character), double (a double-precision floating-point number),
+variable_name: It is the identifier for the variable, i.e., the name we give to the variable to access its value later in the program. 
+The variable name must follow specific rules, like starting with a letter or underscore and consisting of letters, digits, and underscores.
 
 2. Variable Declarations:
 

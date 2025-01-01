@@ -1,5 +1,4 @@
 /*
-
 -----------------------------------------------------What is Computer?---------------------------------------------------------------------
 
 Computer is an electronic device which takes input, process it and gives output.
