@@ -6,8 +6,8 @@ Jab break execute hota hai, toh program control directly loop ya switch block ke
 break loop ko beech mein hi terminate kar deta hai, chahe loop ki condition true ho.
 
 1. break is a keyword
-2. It can only be used either in the body of loop or in the body of switch.
-3. The keyword break is used in the body of loop to terminate execution of loop before completion of its normal life.
+2. break can only be used either in the body of loop or in the body of switch.
+3. In loop, break is used to terminate execution of loop before completion of its normal life.
 4. Sometimes it is desired to terminate loop before its normal end.
 
 Example 1:
@@ -40,7 +40,7 @@ Explanation : Jab i == 5 hota hai, break loop ko terminate kar deta hai aur prog
 
 
 Example 2:
-For example Hume ek program banana hai jo user se ek number input le, jo ek even number hona chahiye.
+Hume ek program banana hai jo user se ek number input le, jo ek even number hona chahiye.
 User ko maximum 3 chances diye jayenge sahi value input karne ke liye.
 Yeh ek game ke jaisa hai jisme user ke paas sirf teen chances hain.
 Agar user pehle hi chance mein even number dal deta hai, toh game user jeet jata hai aur aur chances ki zarurat nahi hoti.
@@ -53,7 +53,7 @@ Is problem ko solve karne ke liye hume break keyword ka use karna hoga taaki loo
 int main()
 {
     int x, i = 1;
-    while (i <= 3)
+    for (i = 1; i <= 3; i++)
     {
         printf("Enter an even number:");
         scanf("%d", &x);
@@ -62,7 +62,6 @@ int main()
             printf("You Win");
             break;
         }
-        i++;
     }
     if (i == 4)
         printf("You Lost");
@@ -75,33 +74,20 @@ Explanation:
 1. In the above example, humne break keyword ko if statement ke andar use kiya hai.
 2. Humne break ko if statement ke andar rakha hai kyunki hume yeh tabhi execute karna hai jab user ka input 2 se completely divisible ho (i.e., even number ho).
 3. Hum break ko loop body ke bahar nahi use kar sakte.
-4. In the above program, humne ek variable i use kiya hai jo 1 se initialize kiya gaya hai.
-5. Control uske baad while statement par aata hai. Condition i <= 3 ka matlab hai ‘1 less than or equal to 3’, jo true hai.
-6. Control ab while block mein enter karta hai aur pehli baar "Enter an even number" print karta hai.
-7. User ek number input karta hai, maan lijiye 5. Control ab if statement par chala jata hai. Condition x % 2 == 0 false hai. 
-Control simply if block ko skip kar deta hai.
-8. Control ab while block ke end par pahuchta hai. Wahan se phir se while condition i <= 3` par jata hai. 
-Ab i ki value change hone ki wajah se condition ‘2 less than or equal to 3’ padhte hain.
-9. Isi tarah control move karta rahega. Ek point par i ki value 3 ho jayegi aur "Enter an even number" teesri baar print karega. 
-Phir i ki value 4 ho jayegi. Control while block ke end tak pahuchta hai aur wahan se dobara i <= 3 condition par jata hai. 
-Ab condition ‘4 is less than or equal to 3’ false hai.
-10. Control simply while loop ko skip kar deta hai.
-11. Dhyan dein ki condition 4 baar check hoti hai (3 baar true, 1 baar false).
-12. i++; ek important step hai, warna loop kabhi khatam nahi hoga (infinite loop ban jayega).
-13. Initialization (i = 1), condition (i <= 3) aur flow (i++) yeh logical constructs hain jo loop ke iterations ko control karte hain.
+4. Agar user 3 attempts mein bhi even number nahi deta, toh loop terminate ho jayega aur program control loop ke baad wale statement par chala jayega.
 
 
 Example 3: Using break in a Nested Loop
 
 #include <stdio.h>
 #include <conio.h>
-int main() 
+int main()
 {
-    for (int i = 1; i <= 3; i++) 
+    for (int i = 1; i <= 3; i++)
     {
-        for (int j = 1; j <= 3; j++) 
+        for (int j = 1; j <= 3; j++)
         {
-            if (j == 2) 
+            if (j == 2)
             {
                 break;                                                                  // Inner loop terminate hoga
             }
@@ -123,14 +109,14 @@ Example 4: break in an Infinite Loop
 
 #include <stdio.h>
 #include <conio.h>
-int main() 
+int main()
 {
     int count = 1;
 
-    while (1) 
+    while (1)
     {                                                                                 // Infinite loop
         printf("Count: %d\n", count);
-        if (count == 5) 
+        if (count == 5)
         {
             break;                                                                     // Loop terminate ho jayega
         }

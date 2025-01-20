@@ -2,7 +2,7 @@
 
 Ques 1.Why do computers understand only binary language?
 
-Ans.
+Ans. Kyunki hum kisi bhi hardware ko do steps mein hi control kar sakte hain.
 Computers use binary because it aligns with the physical properties of electronic circuits, ensures reliability, simplifies design, and 
 efficiently handles all types of data. The binary system is the foundation of modern computing.
 
