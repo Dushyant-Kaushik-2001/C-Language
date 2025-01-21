@@ -19,7 +19,9 @@ Electrical devices are those devices which work on electricity. They do not have
 
 4. Mobile phone , Calculator is also a computer Because it takes input, process it and gives output.
 
-**Ques. Diffrerence between Electrical and Electronic device:
+
+******************************************Ques. Diffrerence between Electrical and Electronic device****************************************
+
 Ans.Electrical device is a device that operates using electricity, while an electronic device is a device that uses electricity to perform 
 a specific function.
 Electronic device kam power par kam karte hain jabki Electrical device jyada power par kaam karte hain.
