@@ -1,10 +1,18 @@
 /*
-
 ----------------------------------------------------------Constant------------------------------------------------------------------------
 
-1. Any information is constant. Every program we make is to process data.
+Constant ka matlab hota hai "Jo kabhi change nahi hota."
+C programming mein constant ek value hoti hai jo kabhi badal nahi sakti.
 
-For example, program to add two numbers or calculate simple interest, etc. We need some data to process. 
+For Example:
+
+1. Humne ek box banaya aur usme 5 rakh diya, aur bola ki ye value hamesha 5 hi rahegi. Matlab hum box me kuch aur rakh nahi sakte.
+2. Humhare room ka maximum temperature humne fix kar diya ki 25 degree se zyada nahi hoga.Ye temperature constant ban gaya. 
+Agar koi ise 30 karne ki koshish karega, toh error ho jayega!
+
+1. Any information is constant. Every program we make is to process data.
+For example: 
+program to add two numbers or calculate simple interest, etc. We need some data to process. 
 In addition of two numbers program, we need two numbers to perform task. 
 Similarly, in simple interest program we need principle, time and rate of interest information, and then only we can process it. 
 In a nut shell, this data is called constant.
@@ -30,7 +38,7 @@ Example: -55,25,0
 
 *Note = Hmara mobile number integer constant hai jabki hmare mobile ka balance real constant hai.
 
-6.. Numbers with decimal point are known as real constants.
+6. Numbers with decimal point are known as real constants.
 Example: 21.4,3.56,-0.065,2.0
 
 *Note = C language ke andar 2 likhna aur 2.0 likhna alg alg baatein hain 2 integer hai aur 2.0 real constant.
@@ -43,5 +51,5 @@ Note= '-3' characater constant nhi hai kyunki character constant ki ye sharat ha
 
 
 
-
+-
 */

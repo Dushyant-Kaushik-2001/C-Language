@@ -1,27 +1,58 @@
 /*
-
 ---------------------------------------------------------Data Types--------------------------------------------------------------------------
 
-1. Program needs data to process. Data comes in wide variety. 
-Phone number is a data, name of a city, person name, account number, etc. are all data. 
-Nature of one data is different from other, like we can add two numbers but cannot add two city names. 
-Similarly, we can capitalize a string but the same operation cannot be applied to numbers.
+1. C mein data types ka matlab hota hai data ka type batana.
+Humhare program ko yeh batana zaroori hota hai ki variable mein kis type ka data store hoga:
+Number (jaise 5, 3.14)
+Character (jaise 'A', 'B')
 
-2. In C, data types are used to define variables and their types during program execution. 
-They specify the type of data that a variable can hold, such as integers, floating-point numbers, characters, etc.
+2. Suppose, hum ek dibba (variable) banate hain, lekin hume ye batana padta hai ki usme kya rakhoge:
+Integer (numbers)
+Decimal numbers (floating point)
+Characters (single letter)
 
-3. C language provides few keywords which can be used to tell compiler what kind of data we want to handle.
+3. Data types are keywords can be used on various occasions to specify the kind of data. One use of data type is to declare variables. 
  
-The basis of this classification is:
+NOTE = Saare keywords data type nhi hai lekin ye kuch keywords hain jo data type hain. Data type yaani data ki category.
 
-(A) Kind of operation we can perform on that category of data is different from the kind of operation we can perform on data belongs to different category.
 
-(B) Amount of space required to represent data in memory.
+--------------------------------------------------Types of Data Types in C-------------------------------------------------------------------
 
-(C) Data Type:int,char,float,double,void.
+C mein data types 3 main categories mein aate hain:
 
-(D) Data types are keywords can be used on various occasions to specify the kind of data. One use of data type is to declare variables.  
+1. Basic Data Types
 
-NOTE = Saare keywords data type nhi hai lekin ye kuch keywords hain jo data type hain.
-Data type yaani data ki category.
+int: Whole numbers (e.g., 5, -10)
+float: Decimal numbers (e.g., 3.14, -0.5)
+char: Single character (e.g., 'A', '$')
+double: Large decimal numbers (e.g., 3.14159265)
+
+2. Derived Data Types
+
+Array: Same type ke elements ka collection (e.g., numbers ka group).
+Pointer: Memory address ko store karta hai.
+
+3. User-Defined Data Types
+
+struct: Custom group of variables.
+enum: Constants ka set.
+
+
+-------------------------------------------------Memory Size of Basic Data Types-------------------------------------------------------------
+
+Har data type ka apna size hota hai:
+
+Data Type	                   Size (Bytes)	                                    Example
+int	                               4	                                         5, -10
+float	                           4	                                       3.14, -0.5
+double	                           8	                                     3.141592653589
+char	                           1	                                      'A', 'B', '$'
+
+
+-----------------------------------------------------Real-Life Example-----------------------------------------------------------------------
+
+Socho Humhare paas ek box hai:
+Agar usme hum sirf integers rakh sakte ho, toh wo box ka type int hoga.
+Agar humhe decimal numbers rakhne hain, toh box ka type float hoga.
+
 */
