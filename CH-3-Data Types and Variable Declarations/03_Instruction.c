@@ -1,6 +1,8 @@
 /*
 ------------------------------------------------------Instruction--------------------------------------------------------------------------
 
+Instruction = Statements = Commands
+ 
 1. Sentences in our program are instructions. They are also known as commands or statements. 
 In C language statements are terminated with a semicolon (;).
 Example:
@@ -12,11 +14,11 @@ Example:
 
 2.Learning instructions will be easier if we categorized them as following: 
 
-(A) Declaration Statement. 
+(A) Declaration Instruction. 
 
-(B) Action Satement.
+(B) Action Instruction.
 
-Action Statement are further divide into three parts:
+Action Instruction are further divide into three parts:
 
 1. Input Output Instruction. 
 2. Arithmetic Instruction. 

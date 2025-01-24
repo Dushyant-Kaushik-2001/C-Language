@@ -1,5 +1,4 @@
 /*
-
 --------------------------------------------------------Input Instruction------------------------------------------------------------------
 
 Most of the time we want to process data which is provided by user through keyboard. 

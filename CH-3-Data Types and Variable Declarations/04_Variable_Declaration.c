@@ -1,19 +1,48 @@
 /*
 ---------------------------------------------------------Variable Declaration--------------------------------------------------------------
+-Variable Declare Kaise Karte Hain?
+
+C mein variable banane ke liye humein:
+1. Data Type (batata hai kis type ka data store karna hai).
+2. Variable Name (box ka naam) chaiye hota hai.
+
+Syntax: data_type variable_name;
+
+Example: Suppose humne ek box banaya jisme likha hai marks, aur andar humne 90 rakha.
+Box ka naam hai: marks
+Box ke andar ki value hai: 90
+
+#include <stdio.h>
+
+int main() 
+{
+    int marks;                                              // Variable banaya jisme integer (number) store hoga
+    marks = 90;                                            // Variable ko value di (assign ki)
+
+    printf("Marks: %d", marks);                          // Value ko print kiya
+    return 0;
+}
+
+Output:
+Marks: 90
+
+------------------------------------------------Variable Declaration & Initialization------------------------------------------------------------
+
+Declaration: Jab hum variable ko banate hain.
+Example: int marks;
+
+Initialization: Jab hum variable ko value assign karte hain.
+Example: marks = 90;
+
+Combined Declaration & Initialization:
+Example: int marks = 90;
+
 
 1. Variables are new words in the program and needs to be declared for the compiler.
 Variables are memory location where we store our data. 
 The kind of data we want to store in the variable should be declared so that compiler fixes the memory requirement. 
 We can do this by using data types.
 
-Syntax:
-The syntax for defining a variable in C is as follows:
-data_type variable_name;  
-Here,
-data_type: It represents the type of data the variable can hold. 
-Examples of data types in C include int (integer), float (a floating-point number), char (character), double (a double-precision floating-point number),
-variable_name: It is the identifier for the variable, i.e., the name we give to the variable to access its value later in the program. 
-The variable name must follow specific rules, like starting with a letter or underscore and consisting of letters, digits, and underscores.
 
 2. Variable Declarations:
 

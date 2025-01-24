@@ -52,7 +52,7 @@ char	                           1	                                      'A', 'B'
 -----------------------------------------------------Real-Life Example-----------------------------------------------------------------------
 
 Socho Humhare paas ek box hai:
-Agar usme hum sirf integers rakh sakte ho, toh wo box ka type int hoga.
+Agar usme hum sirf integers rakh sakte hain, toh wo box ka type int hoga.
 Agar humhe decimal numbers rakhne hain, toh box ka type float hoga.
 
 */

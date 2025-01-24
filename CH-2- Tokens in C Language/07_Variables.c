@@ -1,6 +1,16 @@
 /*
 ----------------------------------------------------------Variables in C----------------------------------------------------------------------
 
+Variable ek container (dibbey) ki tarah hota hai jo program ke andar data (value) ko store karta hai.
+(a). Iske andar hum numbers, characters, ya koi bhi data rakh sakte hain.
+(b). Iske andar ka data change ho sakta hai (constant ke opposite).
+
+Example:
+Suppose humne ek box banaya jisme likha hai marks, aur andar humne 90 rakha.
+Box ka naam hai: marks
+Box ke andar ki value hai: 90
+Box ke andar jo rakhenge, woh program ke execution ke dauraan change ho sakta hai.
+
 1. When we run any program, it consumes memory in RAM till its execution in process. 
 To perform a task program can use this memory for various reasons. 
 One of the important reasons is to store needful data, which is going to be used in processing. 
@@ -12,16 +22,6 @@ In addition of two numbers, three memory spaces should be reserved, two blocks f
 store result. These memory blocks are variables. They have names for identification.
 
 3. Variables are the names of memory locations where we store program's data during execution of program.
-
-4. Variable ek container (dibbey) ki tarah hota hai jo program ke andar data (value) ko store karta hai.
-(a). Iske andar hum numbers, characters, ya koi bhi data rakh sakte hain.
-(b). Iske andar ka data change ho sakta hai (constant ke opposite).
-
-5. Example:
-Suppose humne ek box banaya jisme likha hai marks, aur andar humne 90 rakha.
-Box ka naam hai: marks
-Box ke andar ki value hai: 90
-Box ke andar jo rakhenge000, woh program ke execution ke dauraan change ho sakta hai.
 
 
 ***************************************************Variable naming Rules*********************************************************************

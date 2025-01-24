@@ -1,9 +1,8 @@
 /*
-
 ----------------------------------------How to Printing values of the variables and expressions-----------------------------------------------
 
 Maan lijiye maine kisi program ke andar variable bnaya hua hai a naam ka aur uski value hai 5.
-Ab main ye chahta hu ki main a variable ki value ko print kru toh kese krunga 
+Ab main ye chahta hu ki main a variable ki value ko print kru toh kese krunga? 
 let see:
 
 int a = 5;
@@ -42,10 +41,8 @@ They are special symbols used to tell printf about the format in which data shou
 
 printf(“%d”,a);  
 
-The above statement prints the value of variable a. 
-Here we have to assume that the variable is of int type. 
-Basically %d, tells the printf to print content of a (which is a sequence of 0s and 1s) after converting into a number in base 10, 
-that is decimal number system. 
+The above statement prints the value of variable a. Here we have to assume that the variable is of int type. 
+Basically %d, tells the printf to print content of a (which is a sequence of 0s and 1s) after converting into a number in base 10, that is decimal number system. 
 
 
 CASE 4 : 

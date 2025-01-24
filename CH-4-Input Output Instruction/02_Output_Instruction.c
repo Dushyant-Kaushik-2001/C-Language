@@ -1,13 +1,13 @@
 /*
-
 -----------------------------------------------------Output instruction---------------------------------------------------------------------
 
 To output any text on the screen of monitor, we use a predefined function called printf(). 
 
 1. printf() is not a keyword.
 2. printf() is a predefined function. 
-3. printf() is used to print a text message on the Monitor. 
-4. printf() can be used to print value of a variable or an expression.
+3. We can print any text message on the screen using printf().  
+4. We can also print variable values and expression results using printf().  
+
 
 
 ----------------------------------------------------What is function?-------------------------------------------------------------------
