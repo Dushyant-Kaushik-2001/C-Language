@@ -13,16 +13,15 @@ Ans. Curly brackets ke ek pair ko block bolte hain.
    ----------------       This is called Block.
 }
 
-
 4. Usually Outermost Blocks are functions.
 
-**Note = Block ke andar bhi block bnaaye ja sakte hain saare blocks ko function nhi bolte.
+**NOTE = Block ke andar bhi block bnaaye ja sakte hain saare blocks ko function nhi bolte.
 
 Example:
  add()
 {
   --------------
-  --------------        This is a Function
+  --------------                This is a Function
 } 
  is_prime
 {
@@ -40,13 +39,13 @@ OR
 Function is a block of Statements,which has some name for Identification.   
 
 6. Function has some name for Identification.
-***Note = functions ke naam rakhne ke vhi niyam hain jo variables ke naam rakhne ke niyam the albhabets,digit,underscore ke alava koi 
+***NOTE = functions ke naam rakhne ke vhi niyam hain jo variables ke naam rakhne ke niyam the albhabets,digit,underscore ke alava koi 
 symbol nhi aayega space bhi nhi aayega dot bhi nhi aayega aur phla letter kabhi digit nhi hoga.
 
 7. The Smallest C program has one function.
 
 8. Function names must be Unique.
-***Note = Agar program ke andar bhut saare function ban rhe hain to ye dhyan rakhna ki har function ka naam alg alg hona chaiye.
+***NOTE = Agar program ke andar bhut saare function ban rhe hain to ye dhyan rakhna ki har function ka naam alg alg hona chaiye.
 
 9. If there is only one function its name must be main().
 Agar hum program mein ek hi function bna rhe hain hai to obvious si baat hai ki uska naam hum main()rakhenge.
