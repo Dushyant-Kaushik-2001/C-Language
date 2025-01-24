@@ -1,7 +1,7 @@
 // Ques.10.Write a C program to calculate the square of a given number.
 
 #include <stdio.h>
-#include <conio.h>
+
 int main()
 {
     int x, square;
@@ -13,7 +13,5 @@ int main()
 
     printf("The square of %d is %d", x, square);
 
-    getch();
+    return 0;
 }
-
-

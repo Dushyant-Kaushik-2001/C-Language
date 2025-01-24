@@ -1,7 +1,7 @@
 // Ques.12.Write a C program to calculate the area of a circle.
 
 #include <stdio.h>
-#include <conio.h>
+
 int main()
 {
     int r;
@@ -14,5 +14,5 @@ int main()
 
     printf("Area of Circle is %f ", a);
 
-    getch();
+    return 0;
 }

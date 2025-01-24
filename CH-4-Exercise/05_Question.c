@@ -1,27 +1,10 @@
 // Ques.5.Write a C program to print \n on the screen.
 
 #include<stdio.h>
-#include<conio.h>
+
 int main()
 {
-    printf("\\n");
-    getch();
+    printf("\\n");                                  // \n ko as text print karne ke liye \\ use karte hain
+    return 0;
 }
 
-
-
-
-
-
-
-/*
-
-Explanation:
-1. \\: The first backslash is an escape character, so \\ prints a single backslash.
-
-2. n: This is treated as a literal character, following the escaped backslash.
-
-3. printf("\\n");: Prints \n literally on the screen.
-
-
-*/

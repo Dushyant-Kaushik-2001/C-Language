@@ -1,10 +1,9 @@
 // Ques.4.Write a C program to print “Teacher’s Day” on the screen.
 
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+
 int main()
 {
-    printf("Teacher's Day");
-    getch();
+    printf("\"Teacher's Day\"");
+    return 0;
 }
-

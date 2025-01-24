@@ -1,10 +1,10 @@
 // Ques.3.Write a C program to print “MySirG” on the screen.
 
 #include <stdio.h>
-#include <conio.h>
-int main() 
+
+int main()
 {
-    printf("MySirG");
-    getch();
+    printf("\"MySirG\"");               // Double quotes ke liye backslash (\") use karte hain
+    return 0;
 }
 

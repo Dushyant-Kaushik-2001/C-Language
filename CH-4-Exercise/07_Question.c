@@ -1,18 +1,17 @@
 // Ques.7.Write a C program to print \\ on the screen.
 
 #include <stdio.h>
-#include <conio.h>
+
 int main()
 {
-    printf("\\\\");
-    getch();
+    printf("\\\\");                       // Do backslashes print karne ke liye har ek ke liye \\ use hota hai
+    return 0;
 }
 
 
 
-/* 
-Explanation:
-1. In C, the backslash (\) is an escape character.
-2. To print a single backslash (\), we need to escape it by typing \\.
-3. Since we want to print two backslashes (\\), we need to type \\\\.
+
+/*
+Ek backslash print karne ke liye humko do backslashes (\\) likhne hote hain.
+Iska matlab hai, agar humko do backslashes print karne hain, toh humko 4 backslashes likhne padenge: \\\\.
 */
