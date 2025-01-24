@@ -2,7 +2,7 @@
 int main()
 {
     int a;
-    scanf("%d",&a);                                 // &(ampersand)=address of
+    scanf("%d",&a);                                                // &(ampersand)=address of
     printf("a=%d",a);
     return 0;
 }
