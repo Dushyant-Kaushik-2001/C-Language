@@ -22,100 +22,18 @@ Just because there are so many operators in C language, it is not that easy to r
 according to their behaviour as well as priority rule. It will help us to remember priority of operators.
 
 
---------------------------------------------------------Types of Operators------------------------------------------------------------------ 
-1. Unary Operators.
-2. Arithmetic Operators. 
-3. Bitwise Operators.
-4. Relational Operators.
-5. Logical Operators.
+--------------------------------------------------------Types of Operators------------------------------------------------------------------
+ 
+1. Unary Operators.                    (+,-,++,--,sizeof) 
+2. Arithmetic Operators.               (* , /, %, +, -)
+3. Bitwise Operators.                  (&, |, ^, ~, >>, <<)
+4. Relational Operators.               (<, >, <=, >=, ==, !=) 
+5. Logical Operators.                  (!, &&, ||)
 6. Conditional Operator.
-7. Assignment Operators.
+7. Assignment Operators.               (= ,+=, -=, *=, /=, %=, &=,|=, ^=)
 
 NOTE = Unary Operator ki priority sabse jyada hai then arithmetic and so on.
 Kisi operator mein agr hum ek se jyada operator dekh rhe hain to sabse phle unary operator solve kriye and so on.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 */
