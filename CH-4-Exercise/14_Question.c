@@ -1,17 +1,18 @@
 // Ques.14.Write a C program to calculate Circumference of a circle.
 
 #include <stdio.h>
-#include <conio.h>
+
 int main()
 {
-    float r, c;
+    int r;
+    float c;
 
-    printf("Enter the radius of circle: ");
-    scanf("%f", &r);
+    printf("Enter radius of circle: ");
+    scanf("%d", &r);
 
     c = 2 * 3.14 * r;
 
-    printf("The circumference of the circle is %f", c);
+    printf("Circumference of the circle is %f", c);
 
-    getch();
+    return 0;
 }

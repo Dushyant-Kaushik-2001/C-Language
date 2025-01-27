@@ -1,7 +1,7 @@
 // Ques.15.Write a C program to calculate the volume of a Cuboid.
 
 #include <stdio.h>
-#include <conio.h>
+
 int main()
 {
     float x, y, z, volume;

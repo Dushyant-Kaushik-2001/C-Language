@@ -1,19 +1,14 @@
 // Ques.16.Write a program to calculate the simple interest.
 
 #include <stdio.h>
-#include <conio.h>
+
 int main()
 {
-    float p, r, t, si;
+    int p,t; 
+    float r,si;
 
-    printf("Enter the principal amount: ");
-    scanf("%f", &p);
-
-    printf("Enter the annual interest rate : ");
-    scanf("%f", &r);
-
-    printf("Enter the time : ");
-    scanf("%f", &t);
+    printf("Enter P,R and T:");
+    scanf("%d%f%d", &p, &r, &t);
 
     si = (p * r * t) / 100;
 
