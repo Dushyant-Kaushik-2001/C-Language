@@ -27,14 +27,20 @@ Following is a program to find greater among three numbers. Notice the nested if
     }
     return 0;
 }
-
 /*
-Conditional operator mein bhi nesting kar sakte hain:
+1.Since, if-else statement is considered as a single action statement, thus we can remove curly braces used to mention the body of if block and else block. 
 
-Method 1:
+2. First condition a>b is evaluated, if it is true then control moves inside the if block and check for another condition a>c. 
+
+3. Similarly if the condition a>b is evaluated as false, then control jumps to the else block and check for another condition b>c. 
+*/
+
+
+// Conditional operator mein bhi nesting kar sakte hain:
+// Method 1:
 
 #include<stdio.h>
- int main()
+ int Example2()
 {
     int a, b, c;
     printf("Enter Three Numbers:");
@@ -46,10 +52,10 @@ Method 1:
     return 0;
 }
 
-Method 2: 
+// Method 2: 
 
 #include<stdio.h>
- int main()
+ int Example3()
 {
     int a, b, c;
     printf("Enter Three Numbers:");
@@ -59,29 +65,3 @@ Method 2:
     
     return 0;
 }
-
-1.Since, if-else statement is considered as a single action statement, thus we can remove curly braces used to mention the body of if block and else block. 
-
-2. First condition a>b is evaluated, if it is true then control moves inside the if block and check for another condition a>c. 
-
-3. Similarly if the condition a>b is evaluated as false, then control jumps to the else block and check for another condition b>c. 
-
-
-
-
-
-
-
-
-
-
-
-*/
-
-
-
-
-
-
-
-

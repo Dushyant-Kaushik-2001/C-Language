@@ -12,16 +12,16 @@ int q2()
 }
 int q3()
 {
-    printf("\"MySirG\"");                            // Double quotes ke liye backslash (\") use karte hain
+    printf("\"MySirG\"");                                        // Double quotes ke liye backslash (\") use karte hain
     return 0;
 }
 int q4()
 {
-    printf("\\n");                                  // \n ko as text print karne ke liye \\ use karte hain
-    return 0;
-}
-int q5()
-{
+    printf("\\n");                                                // \n ko as text print karne ke liye \\ use karte hain
+    return 0;                                                    //Pehla \ compiler ko batata hai ki "yeh ek escape character hai."
+}                                                               //Dusra \ compiler ko batata hai ki "yeh ek text character hai."
+int q5()  
+{                                                                                               
     printf("\\r");
     return 0;
 }
@@ -56,25 +56,25 @@ int q8()
 }
 int q9()
 {
-    int x, y, area;
+    int l, b, area;
     printf("Enter length and breadth of rectangle: ");
-    scanf("%d%d", &x, &y);
+    scanf("%d%d", &l, &b);
 
-    area = x * y;
-    printf("The area of rectangle is %d", area);
+    area = l * b;
+    printf("Area of rectangle is %d",area);
     return 0;
 }
-int q10()
+int main()
 {
     int r;
-    float a;
+    float area;
 
     printf("Enter radius of circle: ");
     scanf("%d", &r);
 
-    a = 3.14 * r * r;
+    area = 3.14 * r * r;
 
-    printf("Area of Circle is %f ", a);
+    printf("Area of Circle is %f ", area);
 
     return 0;
 }

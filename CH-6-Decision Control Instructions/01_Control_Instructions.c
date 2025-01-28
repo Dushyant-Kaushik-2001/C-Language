@@ -2,8 +2,7 @@
 --------------------------------------------------Control Instructions------------------------------------------------------------------------ 
 
 1. Program is a set of instructions. We know that each instruction of the program is executed by the processor. 
-It executes instructions one by one. 
-Whatever we write in our program is executed in the same order as they appear in the program. 
+It executes instructions one by one. Whatever we write in our program is executed in the same order as they appear in the program. 
 We can say processor executes instructions in a sequential manner. 
 
 2. At an instance, processor is executing some line of code; we say control of processor is on that line. 
