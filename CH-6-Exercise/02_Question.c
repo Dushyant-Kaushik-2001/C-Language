@@ -1,4 +1,3 @@
-// Ques.2. Write a program to check whether given number is divisible by 5 or not
 
 #include <stdio.h>
 #include <conio.h>
