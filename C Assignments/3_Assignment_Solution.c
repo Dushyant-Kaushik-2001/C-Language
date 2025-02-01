@@ -27,7 +27,7 @@ int q3()
 int q4()
 {
     int x;
-    printf("Enter the number: ");
+    printf("Enter a number: ");
     scanf("%d", &x);
     printf("Last digit of %d is %d", x, x % 10);
     return 0;
