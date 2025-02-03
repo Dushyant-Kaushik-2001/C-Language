@@ -62,7 +62,7 @@ int q3()
 int q4()
 {
     int year;
-    printf("Enter year number");
+    printf("Enter year number:");
     scanf("%d", &year);
     if (year % 100 == 0)
     {
@@ -121,14 +121,22 @@ Logic:
 // Ques.5.Write a program to find the greatest among three given numbers. Print number once if the greatest number appears two or three times.
 int q5()
 {
-    int a, b, c;
-    printf("Enter three numbers:");
-    scanf("%d%d%d", &a, &b, &c);
-    printf("%d", a > b ? a > c ? a : c : b > c ? b: c);
+    int a, b, c, max;
+
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    if (a >= b && a >= c)
+        max = a;
+    else if (b >= a && b >= c)
+        max = b;
+    else
+        max = c;
+
+    printf("Greatest number: %d", max);
 
     return 0;
 }
-// Alternate Programs:
 int q6()
 {
     int a, b, c;
@@ -140,7 +148,7 @@ int q6()
         if (a > c)
             printf("%d", a);
         else
-            printf("%d", c);  
+            printf("%d", c);
     }
 
     else
@@ -153,25 +161,26 @@ int q6()
     }
     return 0;
 }
-int q7()
+int main()
 {
-    int a, b, c,k;
-    printf("Enter three numbers: ");
-    scanf("%d%d%d", &a,&b,&c);
+    int a, b, c, max;
 
-    if (a > b && a > c)
-    {
-        k = a;
-    }
-    else if (b > c)
-    {
-        k = b;
-    }
-    else
-    {
-        k = c;
-    }
-    printf("Greater number is: %d",k);
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    max = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
+
+    printf("Greatest number: %d", max);
 
     return 0;
 }
+/*
+Explaination:
+max = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+1. Pehle check karo a > b.
+2. Agar a bada hai toh check karo a > c, agar true toh max = a, warna max = c.
+3. Agar b bada hai toh check karo b > c, agar true toh max = b, warna max = c.
+a = 30, b = 25, c = 40
+Code max = (30 > 25) ? ((30 > 40) ? 30 : 40) : ((25 > 40) ? 25 : 40);
+kaise kaam karega, usko step by step likh ke dekho.
+*/
