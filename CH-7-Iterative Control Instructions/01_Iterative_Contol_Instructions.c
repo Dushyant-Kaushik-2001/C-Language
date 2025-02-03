@@ -14,14 +14,4 @@
     b) do while loop
     c) for loop
 
-
-
-
-
-
-
-
-
-
-
 */

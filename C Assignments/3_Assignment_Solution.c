@@ -9,7 +9,7 @@ int q1()
 }
 int q2()
 {
-    char x;
+    int x;
     printf("Enter an ASCII code: ");
     scanf("%d", &x);
     printf("The character of ASCII code %d is '%c'", x, x);
