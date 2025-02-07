@@ -60,7 +60,7 @@ int q3alternate()
     }
     return 0;
 }
-// Ques.4.Write a program to print the first 10 odd natural numbers.
+// Ques.4.Write a program to print the first N odd natural numbers.
 int q4()
 {
     int n;
@@ -75,8 +75,8 @@ int q4()
     }
     return 0;
 }
-// Ques.5.Write a program to print the first 10 odd natural numbers in reverse order.
-int main()
+// Ques.5.Write a program to print the first N odd natural numbers in reverse order.
+int q5()
 {
     int n;
     int i=n;
@@ -104,19 +104,22 @@ int q5alternate()
     }
     return 0;
 }
-// Ques.6.Write a program to print the first 10 even natural numbers.
+// Ques.6.Write a program to print the first N even natural numbers.
 int q6()
 {
+    int n;
     int i = 1;
+    printf("Enter a number: ");
+    scanf("%d", &n);
 
-    while (i <= 10)
+    while (i <= n)
     {
         printf("%d\n", 2 * i);
         i++;
     }
     return 0;
 }
-// Ques.7.Write a program to print the first 10 even natural numbers in reverse order.
+// Ques.7.Write a program to print the first N even natural numbers in reverse order.
 int q7()
 {
     int i = 10;
@@ -130,21 +133,27 @@ int q7()
 }
 int q7alternate()
 {
+    int n;
     int i = 1;
+    printf("Enter a number: ");
+    scanf("%d", &n);
 
-    while (i <= 10)
+    while (i <= n)
     {
-        printf("%d\n", 22 - 2 * i);
+        printf("%d\n", 2 * n +2 - 2 * i);
         i++;
     }
     return 0;
 }
-// Ques.8.Write a program to print the squares of first 10 natural numbers.
+// Ques.8.Write a program to print the squares of first N natural numbers.
 int q8()
 {
+    int n;
     int i = 1;
+    printf("Enter a number: ");
+    scanf("%d", &n);
 
-    while (i <= 10)
+    while (i <= n)
     {
         printf("%d\n", i * i);
 
@@ -152,12 +161,15 @@ int q8()
     }
     return 0;
 }
-// Ques.9. Write a program to print the cubes of first 10 natural numbers.
+// Ques.9. Write a program to print the cubes of first N natural numbers.
 int q9()
 {
+    int n;
     int i = 1;
+    printf("Enter a number: ");
+    scanf("%d", &n);
 
-    while (i <= 10)
+    while (i <= n)
     {
         printf("%d\n", i * i * i);
 
@@ -165,14 +177,17 @@ int q9()
     }
     return 0;
 }
-// Ques.10.Write a program to print a table of 5.
-int q10()
+// Ques.10.Write a program to print a table of N.
+int main()
 {
+    int n;
     int i = 1;
+    printf("Enter a number: ");
+    scanf("%d", &n);
 
     while (i <= 10)
     {
-        printf("5 * %d = %d\n", i, 5 * i);
+        printf("%d * %d = %d\n", n, i,  i * n);
         i++;
     }
     return 0;
